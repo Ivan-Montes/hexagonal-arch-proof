@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: hexagonal-arch-proof
+
+# How you deal with Lazy Associations and Entities. By default active but you have a warning in console to set it
+  jpa:
+    open-in-view: true
+# Show queries
+    show-sql: true
+# Defer data.sql until Spring loads
+    defer-datasource-initialization: true
+
+# Kafka producer settings
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      properties:
+        acks: all
+        retries: 10
+        retry:
+          backoff:
+            ms: 1000
