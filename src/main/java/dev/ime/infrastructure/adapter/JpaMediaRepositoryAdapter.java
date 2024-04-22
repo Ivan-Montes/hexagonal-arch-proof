@@ -5,9 +5,9 @@ import java.util.Optional;
 
 import org.springframework.stereotype.Repository;
 
+import dev.ime.config.MediaMapper;
 import dev.ime.domain.model.Media;
 import dev.ime.domain.port.outbound.MediaRepositoryPort;
-import dev.ime.infrastructure.mapper.MediaMapper;
 import dev.ime.infrastructure.repository.JpaMediaRepository;
 
 @Repository

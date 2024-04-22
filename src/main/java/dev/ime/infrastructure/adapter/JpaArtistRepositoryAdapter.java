@@ -5,9 +5,9 @@ import java.util.Optional;
 
 import org.springframework.stereotype.Repository;
 
+import dev.ime.config.ArtistMapper;
 import dev.ime.domain.model.Artist;
 import dev.ime.domain.port.outbound.ArtistRepositoryPort;
-import dev.ime.infrastructure.mapper.ArtistMapper;
 import dev.ime.infrastructure.repository.JpaArtistRepository;
 
 @Repository
