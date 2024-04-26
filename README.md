@@ -3,7 +3,7 @@
 REST API with hexagonal architecture, Kafka, Kafka-UI and OpenApi Swagger
 
 **Components**
-- REST API with OpenApi Swagger [8080]
+- REST API with [OpenApi Swagger[(https://swagger.io/) [8080]
 - [Kafka](https://kafka.apache.org/) [9092] + [9093] 
 - [Kafka-UI](https://docs.kafka-ui.provectus.io/) [8081]
 
@@ -25,15 +25,15 @@ REST API with hexagonal architecture, Kafka, Kafka-UI and OpenApi Swagger
 
 1. From there use the command line to start the project in dev or production mode
 
-    **Developing mode**
-    
+```
+    **Developing mode**  
     docker-compose -f docker-compose-dev.yml up -d
-   
+
     **Production mode**
-    
     docker-compose -f docker-compose-prod.yml up -d
+```
       
-   The dev environment is ready for using with your IDE. The microservice attempts to communicate with Kafka using the local host. In production, it uses the archive Dockerfile to build an image of the project, so you wont need the IDE.
+The dev environment is ready for using with your IDE. The microservice attempts to communicate with Kafka using the local host. In production, it uses the archive Dockerfile to build an image of the project, so you wont need the IDE.
    
 1. You could stop the project with any of these orders
 
