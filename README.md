@@ -3,7 +3,7 @@
 REST API with hexagonal architecture, Kafka, Kafka-UI and OpenApi Swagger
 
 **Components**
-- REST API with [OpenApi Swagger[(https://swagger.io/) [8080]
+- REST API with [OpenApi Swagger](https://swagger.io/) [8080]
 - [Kafka](https://kafka.apache.org/) [9092] + [9093] 
 - [Kafka-UI](https://docs.kafka-ui.provectus.io/) [8081]
 
@@ -58,7 +58,7 @@ First of all, please visit the REST API documentation at:
 
 ## Features
 
-#### :white_check_mark: Include two docker-compose yml files for easy change of environment
+#### :white_check_mark: Include two docker-compose yaml files for easy change of environment
 
 
 ## Maintainers
