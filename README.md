@@ -35,7 +35,7 @@ REST API with hexagonal architecture, Kafka, Kafka-UI and OpenApi Swagger
       
 The dev environment is ready for using with your IDE. The microservice attempts to communicate with Kafka using the local host. In production, it uses the archive Dockerfile to build an image of the project, so you wont need the IDE.
    
-1. You could stop the project with any of these orders
+4. You could stop the project with any of these orders
 
 ```
     **Developing mode**
@@ -59,6 +59,8 @@ First of all, please visit the REST API documentation at:
 ## Features
 
 #### :white_check_mark: Include two docker-compose yaml files for easy change of environment
+
+#### :white_check_mark: Hexagonal Architecture following Clean Architecture principle
 
 
 ## Maintainers
