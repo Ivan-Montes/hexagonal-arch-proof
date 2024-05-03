@@ -83,4 +83,5 @@ Just me, [Iván](https://github.com/Ivan-Montes) :sweat_smile:
 [![Eclipse](https://badgen.net/badge/icon/eclipse?icon=eclipse&label)](https://https://eclipse.org/)
 [![SonarQube](https://badgen.net/badge/icon/sonarqube?icon=sonarqube&label&color=purple)](https://www.sonarsource.com/products/sonarqube/downloads/)
 [![Docker](https://badgen.net/badge/icon/docker?icon=docker&label)](https://www.docker.com/)
+[![Kafka](https://badgen.net/static/Apache/Kafka/cyan)](https://kafka.apache.org/)
 [![GPLv3 license](https://badgen.net/static/License/GPLv3/blue)](https://choosealicense.com/licenses/gpl-3.0/)
